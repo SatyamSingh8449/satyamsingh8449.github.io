@@ -152,25 +152,6 @@ const ProjectsPage = () => {
           <p className="text-gray-400 mt-2">Stay tuned for these exciting new security tools and research</p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-6">
-          <Card className="bg-gradient-to-br from-neutral-800 to-neutral-900 p-6">
-            <h3 className="text-lg font-bold text-white mb-2">Advanced Threat Hunting Platform</h3>
-            <p className="text-gray-400">A comprehensive platform for proactive threat hunting with ML-powered anomaly detection.</p>
-            <Badge variant="outline" className="mt-4">Coming Soon</Badge>
-          </Card>
-          
-          <Card className="bg-gradient-to-br from-neutral-800 to-neutral-900 p-6">
-            <h3 className="text-lg font-bold text-white mb-2">IoT Security Scanner</h3>
-            <p className="text-gray-400">A tool to identify vulnerabilities in IoT devices and provide remediation recommendations.</p>
-            <Badge variant="outline" className="mt-4">Coming Soon</Badge>
-          </Card>
-          
-          <Card className="bg-gradient-to-br from-neutral-800 to-neutral-900 p-6">
-            <h3 className="text-lg font-bold text-white mb-2">Ransomware Behavior Analyzer</h3>
-            <p className="text-gray-400">A sandbox environment to analyze ransomware behavior and encryption techniques.</p>
-            <Badge variant="outline" className="mt-4">Coming Soon</Badge>
-          </Card>
-        </div>
       </section>
     </div>
   );
