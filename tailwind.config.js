@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'], // scans your source files
   darkMode: 'class',
   theme: {
     extend: {
@@ -9,7 +9,7 @@ export default {
       },
       animation: {
         'fadeIn': 'fadeIn 0.3s ease-in-out',
-        'blink': 'blink 1s infinite'
+        'blink': 'blink 1s infinite',
       },
       keyframes: {
         fadeIn: {
