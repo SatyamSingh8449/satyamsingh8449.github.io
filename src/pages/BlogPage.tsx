@@ -4,36 +4,47 @@ import { Badge } from '../components/ui/Badge';
 import { Search, ExternalLink, Tag, Calendar } from 'lucide-react';
 
 const blogs = [
-  {
+    {
     id: 1,
+    title: "Supply Chain Risk in Python: Termncolor and Colorinal Explained",
+    excerpt: "Zscaler ThreatLabz continually monitors threats in our Python scanning database, uncovering risks that may signal potential supply chain attacks.",
+    date: "November 5, 2023",
+    tags: ["PyPI", "Threat Analysis", "Emerging Threats","SupplyChain Attack"],
+    category: "corporate",
+    link: "https://www.zscaler.com/blogs/security-research/supply-chain-risk-python-termncolor-and-colorinal-explained",
+    image: "https://www.pexels.com/photo/crop-hacker-typing-on-laptop-with-information-on-screen-5935787/"
+  },
+  {
+    id: 2,
+    title: "BunnyLoader: The Newest Malware-as-a-Service",
+    excerpt: "Deep dive into BunnyLoader, examining its capabilities, infrastructure, and position in the MaaS ecosystem.",
+    date: "September 29, 2023",
+    tags: ["MaaS", "Threat Analysis", "Emerging Threats"],
+    category: "corporate",
+    link: "https://www.zscaler.com/blogs/security-research/bunnyloader-newest-malware-service",
+    image: "https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    id: 3,
     title: "Hibernating Qakbot: A Comprehensive Study and In-Depth Campaign Analysis",
     excerpt: "Detailed analysis of Qakbot malware campaigns, their evolution, and attack techniques with technical breakdown of the infection chain.",
-    date: "March 15, 2024",
+    date: "July 25, 2023",
     tags: ["Malware", "Banking Trojan", "Campaign Analysis"],
     category: "corporate",
     link: "https://www.zscaler.com/blogs/security-research/hibernating-qakbot-comprehensive-study-and-depth-campaign-analysis",
     image: "https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   {
-    id: 2,
+    id: 4,
     title: "DBatLoader Actively Distributing Malwares Targeting European Businesses",
     excerpt: "Investigation into DBatLoader malware campaign targeting European businesses with analysis of TTPs and IOCs.",
-    date: "January 22, 2024",
+    date: "March 27, 2023",
     tags: ["Loader", "Europe", "Business Targets"],
     category: "corporate",
     link: "https://www.zscaler.com/blogs/security-research/dbatloader-actively-distributing-malwares-targeting-european-businesses",
     image: "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
-  {
-    id: 3,
-    title: "BunnyLoader: The Newest Malware-as-a-Service",
-    excerpt: "Deep dive into BunnyLoader, examining its capabilities, infrastructure, and position in the MaaS ecosystem.",
-    date: "November 5, 2023",
-    tags: ["MaaS", "Threat Analysis", "Emerging Threats"],
-    category: "corporate",
-    link: "https://www.zscaler.com/blogs/security-research/bunnyloader-newest-malware-service",
-    image: "https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-  },
+
   
 ];
 
