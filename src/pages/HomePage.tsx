@@ -119,11 +119,11 @@ const HomePage = () => {
                 <div className="h-44 bg-gradient-to-br from-neutral-800 to-cyan-900/20 rounded-md flex items-center justify-center">
                   <Code className="h-16 w-16 text-cyan-500" />
                 </div>
-                <h3 className="text-xl font-bold text-white">DBatLoader Campaign</h3>
-                <p className="text-gray-400">Analysis of DBatLoader actively distributing malwares targeting European businesses.</p>
+                <h3 className="text-xl font-bold text-white">Supply Chain Risk in Python</h3>
+                <p className="text-gray-400">Termncolor and Colorinal Explained</p>
                 <div className="pt-4">
                   <a 
-                    href="https://www.zscaler.com/blogs/security-research/dbatloader-actively-distributing-malwares-targeting-european-businesses" 
+                    href="https://www.zscaler.com/blogs/security-research/supply-chain-risk-python-termncolor-and-colorinal-explained" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-cyan-500 hover:text-cyan-400 transition-colors"
