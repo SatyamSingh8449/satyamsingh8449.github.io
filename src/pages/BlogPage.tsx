@@ -12,7 +12,7 @@ const blogs = [
     tags: ["PyPI", "Threat Analysis", "Emerging Threats","SupplyChain Attack"],
     category: "corporate",
     link: "https://www.zscaler.com/blogs/security-research/supply-chain-risk-python-termncolor-and-colorinal-explained",
-    image: "https://www.pexels.com/photo/crop-hacker-typing-on-laptop-with-information-on-screen-5935787/"
+    image: "https://images.pexels.com/photos/5475752/pexels-photo-5475752.jpeg"
   },
   {
     id: 2,
