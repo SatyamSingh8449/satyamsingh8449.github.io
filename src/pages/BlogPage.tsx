@@ -5,7 +5,7 @@ import { Search, ExternalLink, Tag, Calendar } from 'lucide-react';
 
 const blogs = [
     {
-    id: 1,
+    id: 3,
     title: "Supply Chain Risk in Python: Termncolor and Colorinal Explained",
     excerpt: "Zscaler ThreatLabz continually monitors threats in our Python scanning database, uncovering risks that may signal potential supply chain attacks.",
     date: "November 5, 2023",
