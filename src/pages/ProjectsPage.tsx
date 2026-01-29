@@ -17,6 +17,19 @@ const projects = [
       demo: null
     }
   },
+  {
+    id: 2,
+    title: "Python Package Debugger",
+    description: " Professional Python Package Security Debugger - Step debugging, variable watching, and AST-based simulation for analyzing Python packages without execution",
+    technologies: ["Python", "Supply Chain", "Threat Intelligence"],
+    type: "Personal",
+    date: "2025",
+    image: "https://www.pexels.com/photo/codes-on-a-computer-monitor-2764993/",
+    links: {
+      github: "https://github.com/SatyamSingh8449/Python-Package-Debugger",
+      demo: null
+    }
+  },
   
 ];
 
