@@ -15,7 +15,7 @@ const blogs = [
     image: "https://images.pexels.com/photos/5475752/pexels-photo-5475752.jpeg"
   },
   {
-    id: 2,
+    id: 4,
     title: "BunnyLoader: The Newest Malware-as-a-Service",
     excerpt: "Deep dive into BunnyLoader, examining its capabilities, infrastructure, and position in the MaaS ecosystem.",
     date: "September 29, 2023",
@@ -25,7 +25,7 @@ const blogs = [
     image: "https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   {
-    id: 3,
+    id: 5,
     title: "Hibernating Qakbot: A Comprehensive Study and In-Depth Campaign Analysis",
     excerpt: "Detailed analysis of Qakbot malware campaigns, their evolution, and attack techniques with technical breakdown of the infection chain.",
     date: "July 25, 2023",
@@ -35,7 +35,7 @@ const blogs = [
     image: "https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   {
-    id: 4,
+    id: 6,
     title: "DBatLoader Actively Distributing Malwares Targeting European Businesses",
     excerpt: "Investigation into DBatLoader malware campaign targeting European businesses with analysis of TTPs and IOCs.",
     date: "March 27, 2023",
@@ -44,6 +44,27 @@ const blogs = [
     link: "https://www.zscaler.com/blogs/security-research/dbatloader-actively-distributing-malwares-targeting-european-businesses",
     image: "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
+    {
+    id: 2,
+    title: "Malicious PyPI Packages Deliver SilentSync RAT",
+    excerpt: "Zscaler ThreatLabz regularly monitors for threats in the popular Python Package Index (PyPI), which contains open source libraries that are frequently used by many Python developers.",
+    date: "September 17, 2025",
+    tags: ["PyPi", "Python", "Supply Chain"],
+    category: "corporate",
+    link: "https://www.zscaler.com/blogs/security-research/malicious-pypi-packages-deliver-silentsync-rat",
+    image: "https://www.pexels.com/photo/python-book-1181671/"
+  },
+{
+    id: 1,
+    title: "Malicious NPM Packages Deliver NodeCordRAT",
+    excerpt: "Zscaler ThreatLabz regularly monitors the npm database for suspicious packages. In November 2025, ThreatLabz identified three malicious packages: bitcoin-main-lib, bitcoin-lib-js, and bip40",
+    date: "January 07, 2026",
+    tags: ["Supplychain", "NPM", "NodecordRAT"],
+    category: "corporate",
+    link: "https://www.zscaler.com/blogs/security-research/malicious-npm-packages-deliver-nodecordrat",
+    image: "https://www.pexels.com/photo/person-holding-a-red-npm-sticker-11035482/"
+  },
+    
 
   
 ];
